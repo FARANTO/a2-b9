@@ -1,0 +1,92 @@
+/* header */
+header{
+    text-align: center;
+    position: relative;
+    background: #FFF;
+    padding: 50px 240px;
+    justify-content: space-between;
+}
+/* nav */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h3.sec-title {
+    font-size: 2rem;
+    color: #333;
+} 
+nav>ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+nav li a{
+    text-decoration: none;
+    color: #424242;
+}
+nav span{
+    color:#FF5400;
+}
+/* banner-img */
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+.banner-img{
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+.ban-caption{
+    color: #FFF;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    top: 50%;
+    left: 50%;
+}
+.input-section{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    top: 60%;
+    left: 50%;
+}
+/* Responsive section */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 20px; 
+    }
+
+    nav h3.sec-title {
+        font-size: 1.2rem; /
+    }
+
+    nav li {
+        margin-bottom: 5px; 
+    }
+
+    .banner {
+        padding: 10px; 
+    }
+
+    .ban-caption {
+        font-size: 1.2rem; 
+    }
+
+    .input-section {
+        top: 70%;
+    }
+}
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap')
